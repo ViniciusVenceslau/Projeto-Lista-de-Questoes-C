@@ -113,3 +113,28 @@ c)	x for declarado como float? Resposta: 4096, 4100 e 4104.
 
 d)	x for declarado como double? Resposta: 4100, 4108 e 4116.
 
+![image](https://user-images.githubusercontent.com/92820372/140997475-c9ca8175-9f0e-4656-904f-31c2ae4268df.png)
+
+Questão 11)
+
+a)	aloha[2] = value;
+
+b)	scanf("%f", &aloha); 
+
+c)	aloha = "value"; inválido
+
+d)	printf("%f", aloha); 
+
+e)	coisas[4][4] = aloha[3]; 
+
+f)	coisas[5] = aloha; inválido
+
+g)	pf = value; inválido
+
+h)	pf = aloha;
+
+Questão 12)
+
+Resposta: O ponteiro em uma função é usado, comumente, como argumento da função. Nesse viés, através do ponteiro é possível reduzir o espaço de memória necessário para compilação/ execução do código. Isto ocorre, pois a variável ponteiro apontará para um endereço de memória, ao invés de ser necessário “duplicar” o conteúdo presente em uma variável qualquer.
+
+Questão 13)
