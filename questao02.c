@@ -1,6 +1,6 @@
 Questão 2) 
 
-a)	p == &i; Resposta: Verdadeiro, “1”.
+a)	p == &i; Resposta: Verdadeiro, pois ambos apresentam o mesmo valor, neste caso, o endereço de memória da variável i.
 
 b)	*p - *q; Resposta: 3 – 5, ou seja, -2.
 
