@@ -144,3 +144,8 @@ Resposta:
 ![image](https://user-images.githubusercontent.com/92820372/141008553-ad80816d-2160-46be-ac42-dfdccbe265e0.png)
 
 Questão 14)
+
+Resposta:
+
+![image](https://user-images.githubusercontent.com/92820372/141365788-feceaf7c-3386-4f5f-b795-1007f3794324.png)
+
