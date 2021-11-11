@@ -13,7 +13,7 @@ Resposta: Tendo em vista que a programação faz parte do desenvolvimento de pro
 
 Questão 2) 
 
-a)	p == &i; Resposta: Verdadeiro, “1”.
+a)	p == &i; Resposta: Verdadeiro, tendo em vista que ambos possuem o mesmo valor, ou seja, o valor do endereço da variável i.
 
 b)	*p - *q; Resposta: 3 – 5, ou seja, -2.
 
