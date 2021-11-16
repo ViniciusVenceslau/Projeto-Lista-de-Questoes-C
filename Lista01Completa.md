@@ -149,3 +149,8 @@ Resposta:
 
 ![image](https://user-images.githubusercontent.com/92820372/141365788-feceaf7c-3386-4f5f-b795-1007f3794324.png)
 
+Questão 15)
+
+Resposta:
+
+![image](https://user-images.githubusercontent.com/92820372/142052619-0c824197-7461-4a59-9228-5b9de3faa41c.png)
