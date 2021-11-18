@@ -9,4 +9,5 @@ Linha 22 criação de um vetor através da função "malloc()".
 Linhas 23 a 26 pedem para o usuário digitar os elementos presentes no vetor.
 Linha 27 é utilizado a função "qsort()" para ordenar de forma crescente os elementos do vetor.
 Linhas 28 a 31 é exibido na tela do usuário os valores de maneira crescente.
-Linha 33 ocorre a liberação do espaço de memória utilizado para compor o vetor por meio da função "free()". 
+Linha 33 ocorre a liberação do espaço de memória utilizado para compor o vetor por meio da função "free()".
+Código da questão 14 a seguir:
