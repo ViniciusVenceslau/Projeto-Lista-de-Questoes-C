@@ -1,6 +1,6 @@
 Resposta: A execução do primeiro código ocorre de forma mais rápida(tempo menor) do que a execução do segundo programa, o qual utiliza o conteúdo de ponteiro para função.
 
-Primeiro código com implementação do cálculo do tempo de compilação:
+Primeiro código com implementação do cálculo do tempo de execução:
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -43,7 +43,7 @@ free(x);
 return 0;
 }
 
-Segundo código com implementação do cálculo do tempo de compilação:
+Segundo código com implementação do cálculo do tempo de execução:
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
