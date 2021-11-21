@@ -154,3 +154,7 @@ Questão 15)
 Resposta:
 
 ![image](https://user-images.githubusercontent.com/92820372/142052619-0c824197-7461-4a59-9228-5b9de3faa41c.png)
+
+Questão 16)
+
+Resposta:
