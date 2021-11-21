@@ -1,4 +1,4 @@
-Resposta: A execução do primeiro código ocorre de forma mais rápida do que a execução do segundo programa, o qual utiliza o ponteiro para função.
+Resposta: A execução do primeiro código ocorre de forma mais rápida(tempo menor) do que a execução do segundo programa, o qual utiliza o conteúdo de ponteiro para função.
 
 Primeiro código com implementação do cálculo do tempo de compilação:
 #include <stdio.h>
