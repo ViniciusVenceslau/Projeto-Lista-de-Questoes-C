@@ -1,3 +1,5 @@
+Resposta: A execução do primeiro código ocorre de forma mais rápida do que a execução do segundo programa, o qual utiliza o ponteiro para função.
+
 Primeiro código com implementação do cálculo do tempo de compilação:
 #include <stdio.h>
 #include <stdlib.h>
@@ -35,6 +37,7 @@ printf("%f", x[i]);
 printf("\n");
 }
 t=clock()-t;
+printf("\n");
 printf("O tempo foi de: %ld clicks = (%f segundos)\n:", t, ((float)t)/CLOCKS_PER_SEC);
 free(x);
 return 0;
