@@ -157,4 +157,4 @@ Resposta:
 
 Questão 16)
 
-Resposta:
+Resposta: A execução do primeiro código ocorre de forma mais rápida(tempo menor) do que a execução do segundo programa, o qual utiliza o conteúdo de ponteiro para função.
