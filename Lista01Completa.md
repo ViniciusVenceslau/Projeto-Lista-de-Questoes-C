@@ -153,6 +153,7 @@ Questão 15)
 
 Resposta:
 
+![image](https://user-images.githubusercontent.com/92820372/142923883-140cc365-aa5d-4be6-bb79-8b92447da4ec.png)
 
 Questão 16)
 
