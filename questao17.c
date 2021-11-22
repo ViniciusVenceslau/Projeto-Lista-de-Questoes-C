@@ -3,7 +3,7 @@
 
 void soma (int *a, int *b, int *c, int q){
   
-  //Realização da soma vetorial:
+//Realização da soma vetorial:
   for(int k=0; k<q; k++){
     c[k] = a[k] + b[k];
   }
