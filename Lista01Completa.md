@@ -153,8 +153,8 @@ Questão 15)
 
 Resposta:
 
-![image](https://user-images.githubusercontent.com/92820372/142052619-0c824197-7461-4a59-9228-5b9de3faa41c.png)
+
 
 Questão 16)
 
-Resposta: A execução do primeiro código ocorre de forma mais rápida(tempo menor) do que a execução do segundo programa, o qual utiliza o conteúdo de ponteiro para função.
+Resposta: A execução do primeiro código ocorre de forma mais rápida(tempo menor) que a execução do segundo programa. Nesse sentido, é perceptível que utilizar a função "qsort" diminui o tempo de execução.
