@@ -1,4 +1,4 @@
-Resposta: A execução do primeiro código ocorre de forma mais rápida(tempo menor) que a execução do segundo programa, o qual utiliza o conteúdo de ponteiro para função.
+Resposta: A execução do primeiro código ocorre de forma mais rápida(tempo menor) que a execução do segundo programa. Nesse sentido, é perceptível que utilizar a função "qsort" diminui o tempo de execução.
 
 Primeiro código com implementação do cálculo do tempo de execução:
 #include <stdio.h>
@@ -48,10 +48,6 @@ Segundo código com implementação do cálculo do tempo de execução:
 #include <stdlib.h>
 #include <time.h>
 
-int compare (const void *a, const void *b){
-return (*(float*)a - *(float*)b);
-}
-
 int comparefloat (const void *a, const void *b){
 if(*(float*)a > *(float*)b){
 return 1;
@@ -61,12 +57,24 @@ return 0;
 return -1;
 }
 }
+void ordenacao(float *x, int q, int (*comparefloat)(const void *a, const void *b)){
+int aux;
+for(int i = 0; i < q; i++){
+  for(int j = 0; j < q; j++){
+    if(comparefloat(x+i, x+j) < 0){
+      aux = x[i];
+      x[i] = x[j];
+      x[j] = aux;
+    }
+  }
+}
+}
 
 int main() {
 clock_t t;
 int q;
 float *x;
-int (*pf) (const void *, const void *) = compare;
+int (*pf) (const void *, const void *) = comparefloat;
 t=clock();
 printf("Informe o tamanho do vetor:\n");
 scanf("%d", &q);
@@ -75,7 +83,7 @@ printf("Insira os elementos do vetor:\n");
 for(int i = 0; i < q; i++){
 scanf("%f", &x[i]);
 }
-qsort(x, q, sizeof(float), *pf);
+ordenacao(x, q, *pf);
 printf("Os valores organizados em ordem crescente é:\n");
 for(int i = 0; i < q; i++){
 printf("%f", x[i]);
@@ -86,4 +94,4 @@ printf("\n");
 printf("O tempo foi de %ld clicks = (%f segundos):\n", t,((float)t)/CLOCKS_PER_SEC);
 free(x);
 return 0;
-} 
+}
