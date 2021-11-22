@@ -154,7 +154,18 @@ Questão 15)
 Resposta:
 
 
-
 Questão 16)
 
 Resposta: A execução do primeiro código ocorre de forma mais rápida(tempo menor) que a execução do segundo programa. Nesse sentido, é perceptível que utilizar a função "qsort" diminui o tempo de execução.
+
+Questão 17)
+
+Resposta:
+
+![image](https://user-images.githubusercontent.com/92820372/142923540-587fbf13-37fa-43da-bf55-c8edd20ad050.png)
+
+Questão 18)
+
+Resposta:
+
+
