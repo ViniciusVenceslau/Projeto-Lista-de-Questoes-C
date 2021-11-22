@@ -1,4 +1,4 @@
-Resposta: A execução do primeiro código ocorre de forma mais lenta(tempo maior) que a execução do segundo programa. Nesse sentido, é perceptível que utilizar a função "qsort" é mais complexa e efetiva.
+Resposta: A execução do primeiro código ocorre de forma mais lenta(tempo maior) que a execução do segundo programa. Nesse sentido, é perceptível que utilizar a função "qsort" é mais complexo e efetivo.
 
 Primeiro código com implementação do cálculo do tempo de execução:
 #include <stdio.h>
