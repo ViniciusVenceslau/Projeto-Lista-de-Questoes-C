@@ -13,7 +13,6 @@ Linha 33 ocorre a liberação do espaço de memória utilizado para compor o vet
 Código da questão 14 a seguir:
 #include <stdio.h>
 #include <stdlib.h>
-
 int compare (const void *a, const void *b){
 return (*(float*)a - *(float*)b);
 }
