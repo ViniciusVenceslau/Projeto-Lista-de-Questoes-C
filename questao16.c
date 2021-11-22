@@ -58,13 +58,13 @@ return -1;
 }
 }
 void ordenacao(float *x, int q, int (*comparefloat)(const void *a, const void *b)){
-int aux;
+int auxiliar;
 for(int i = 0; i < q; i++){
   for(int j = 0; j < q; j++){
     if(comparefloat(x+i, x+j) < 0){
-      aux = x[i];
+      auxiliar = x[i];
       x[i] = x[j];
-      x[j] = aux;
+      x[j] = auxiliar;
     }
   }
 }
