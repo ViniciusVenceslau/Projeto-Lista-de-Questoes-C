@@ -4,10 +4,10 @@
 void produto (int l, int c, int q, int matriz1[l][c], int matriz2[c][q], int matriz3[l][q]){
 
 //Produto AB
-for(int i=0; i<3; i++){
-	for(int j=0; j<3; j++){
+for(int i = 0; i < l; i++){
+	for(int j = 0; j < q; j++){
     matriz3[i][j] = 0;
-		for(int k=0; k<3; k++){
+		for(int k = 0; k < c; k++){
 			matriz3[i][j] = matriz3[i][j] + matriz1[i][k]*matriz2[k][j];
 		}
 	}
