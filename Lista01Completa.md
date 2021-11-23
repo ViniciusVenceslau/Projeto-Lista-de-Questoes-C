@@ -169,4 +169,4 @@ Questão 18)
 
 Resposta:
 
-
+![image](https://user-images.githubusercontent.com/92820372/143041735-bf7effa7-8dde-4236-b68a-968106b6b26d.png)
