@@ -13,8 +13,8 @@ for(int i = 0; i < l; i++){
 	}
 }
 printf("O produto entre as matrizes (AB) é:\n");
-for(int i=0; i<3; i++){
-	for(int j=0; j<3; j++){
+for(int i = 0; i < l; i++){
+	for(int j = 0; j < q; j++){
 		printf("%d ", matriz3[i][j]);
   }
   printf("\n");
