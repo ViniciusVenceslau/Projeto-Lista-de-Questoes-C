@@ -6,6 +6,7 @@ int compare(const void * a, const void * b){
   if ( *(float*)a > *(float*)b ) return 1;
   if ( *(float*)a == *(float*)b ) return 0;
   if ( *(float*)a < *(float*)b ) return -1;
+}
 int main(){
   float iT1, fT1, iT2, fT2, *x, *y;
   printf("Informe o tamanho do vetor:\n");
