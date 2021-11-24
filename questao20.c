@@ -34,11 +34,12 @@ int main(){
   for(int i = 0; i < q; i++){
     printf("%f ", x[i]);
   }
+  printf("\n");
   free(y);
   fT1 = clock();
   fT2 = clock();
-  printf("Primeiro tempo de execucao = %f segundos\n", (fT1 - iT1)/CLOCKS_PER_SEC);
-  printf("Segundo tempo de execucao2 = %f segundos\n", (fT2 - iT2)/CLOCKS_PER_SEC);
+  printf("Primeiro tempo de execução = %f segundos\n", (fT1 - iT1)/CLOCKS_PER_SEC);
+  printf("Segundo tempo de execução = %f segundos\n", (fT2 - iT2)/CLOCKS_PER_SEC);
   printf("Atraso do coletor de lixo = %f segundos\n", ((fT1 - iT1)/CLOCKS_PER_SEC)-((fT2 - iT2)/CLOCKS_PER_SEC));
   return 0;
 }
