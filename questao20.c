@@ -37,8 +37,8 @@ int main(){
   free(y);
   fT1 = clock();
   fT2 = clock();
-  printf("\nTempo de execucao1 = %f segundos", (fT1 - iT1)/CLOCKS_PER_SEC);
-  printf("\nTempo de execucao2 = %f segundos", (fT2 - iT2)/CLOCKS_PER_SEC);
-  printf("\nAtraso do coletor de lixo = %f segundos\n", ((fT1 - iT1)/CLOCKS_PER_SEC)-((fT2 - iT2)/CLOCKS_PER_SEC));
+  printf("Primeiro tempo de execucao = %f segundos\n", (fT1 - iT1)/CLOCKS_PER_SEC);
+  printf("Segundo tempo de execucao2 = %f segundos\n", (fT2 - iT2)/CLOCKS_PER_SEC);
+  printf("Atraso do coletor de lixo = %f segundos\n", ((fT1 - iT1)/CLOCKS_PER_SEC)-((fT2 - iT2)/CLOCKS_PER_SEC));
   return 0;
 }
