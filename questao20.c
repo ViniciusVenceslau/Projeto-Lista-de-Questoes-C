@@ -3,9 +3,12 @@
 #include <stdlib.h>
 #include <time.h>
 int compare(const void * a, const void * b){
-  if ( *(float*)a > *(float*)b ) return 1;
-  if ( *(float*)a == *(float*)b ) return 0;
-  if ( *(float*)a < *(float*)b ) return -1;
+  if ( *(float*)a > *(float*)b ){
+    return 1;}
+  else if ( *(float*)a == *(float*)b ){
+    return 0;}
+  else {
+    return -1;}
 }
 int main(){
   int q;
@@ -21,12 +24,13 @@ int main(){
     scanf("%f", &x[i]);
     y[i] = x[i];
   }
-  printf("Valores digitados: \n");
+  printf("Valores digitados:\n");
   for(int i = 0; i < q; i++){
     printf("%f ", x[i]);
   }
+  printf("\n");
   qsort(x, q, sizeof(float), compare); 
-  printf("Elementos ordenados em ordem crescente: \n");
+  printf("Elementos ordenados em ordem crescente:\n");
   for(int i = 0; i < q; i++){
     printf("%f ", x[i]);
   }
