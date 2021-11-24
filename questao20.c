@@ -8,6 +8,7 @@ int compare(const void * a, const void * b){
   if ( *(float*)a < *(float*)b ) return -1;
 }
 int main(){
+  int q;
   float iT1, fT1, iT2, fT2, *x, *y;
   printf("Informe o tamanho do vetor:\n");
   scanf("%d", &q);
@@ -26,7 +27,7 @@ int main(){
   }
   qsort(x, q, sizeof(float), compare); 
   printf("Elementos ordenados em ordem crescente: \n");
-  for(i = 0; i < q; i++){
+  for(int i = 0; i < q; i++){
     printf("%f ", x[i]);
   }
   free(y);
