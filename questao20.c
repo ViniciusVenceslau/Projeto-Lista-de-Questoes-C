@@ -3,19 +3,19 @@
 #include <stdlib.h>
 #include <time.h>
 int compare(const void * a, const void * b){
-  if ( (float*)a >  (float*)b ) return 1;
-  if ( (float*)a == (float*)b ) return 0;
+  if ( *(float*)a >  (float*)b ) return 1;
+  if ( *(float*)a == (float*)b ) return 0;
   if ( (float*)a <  (float*)b ) return -1;
 int main(){
-  float initT1, finalT1, initT2, finalT2, *x, *y;
+  float iT1, fT1, iT2, fT2, *x, *y;
   printf("Informe o tamanho do vetor:\n");
   scanf("%d", &q);
-  initT1 = clock();
+  iT1 = clock();
   x = GC_MALLOC(q * sizeof(float));
   initT2 = clock();
-  y = malloc(n * sizeof(float));
+  y = malloc(q * sizeof(float));
+  printf("Insira os elementos do vetor:\n");
   for(int i = 0; i < q; i++){
-    printf("Numero %d: ", i);
     scanf("%f", &x[i]);
     y[i] = x[i];
   }
@@ -31,8 +31,8 @@ int main(){
   free(y);
   finalT1 = clock();
   finalT2 = clock();
-  printf("\nTempo de execucao1 = %.10f segundos", (finalT1 - initT1)/CLOCKS_PER_SEC);
-  printf("\nTempo de execucao2 = %.10f segundos", (finalT2 - initT2)/CLOCKS_PER_SEC);
-  printf("\nAtraso do coletor de lixo = %.10f segundos\n", ((finalT1 - initT1)/CLOCKS_PER_SEC)-((finalT2 - initT2)/CLOCKS_PER_SEC));
+  printf("\nTempo de execucao1 = %.10f segundos", (fT1 - iT1)/CLOCKS_PER_SEC);
+  printf("\nTempo de execucao2 = %.10f segundos", (fT2 - iT2)/CLOCKS_PER_SEC);
+  printf("\nAtraso do coletor de lixo = %.10f segundos\n", ((fT1 - iT1)/CLOCKS_PER_SEC)-((fT2 - iT2)/CLOCKS_PER_SEC));
   return 0;
 }
