@@ -2,7 +2,7 @@
 #include "gc.h"
 #include <stdlib.h>
 #include <time.h>
-int comparar(const void * a, const void * b){
+int compare(const void * a, const void * b){
   if ( (float*)a >  (float*)b ) return 1;
   if ( (float*)a == (float*)b ) return 0;
   if ( (float*)a <  (float*)b ) return -1;
